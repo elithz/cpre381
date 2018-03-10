@@ -1,0 +1,87 @@
+// Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 16.0.0 Build 211 04/27/2016 SJ Standard Edition"
+
+// DATE "02/19/2017 15:22:25"
+
+// 
+// Device: Altera EP4CE6E22C6 Package TQFP144
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module inv (
+	i_A,
+	o_F);
+input 	i_A;
+output 	o_F;
+
+// Design Ports Information
+// o_F	=>  Location: PIN_100,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// i_A	=>  Location: PIN_98,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+// synopsys translate_off
+initial $sdf_annotate("lab5_6_1200mv_85c_v_slow.sdo");
+// synopsys translate_on
+
+wire \o_F~output_o ;
+wire \i_A~input_o ;
+
+
+// Location: IOOBUF_X34_Y17_N2
+cycloneive_io_obuf \o_F~output (
+	.i(!\i_A~input_o ),
+	.oe(vcc),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\o_F~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \o_F~output .bus_hold = "false";
+defparam \o_F~output .open_drain_output = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X34_Y17_N22
+cycloneive_io_ibuf \i_A~input (
+	.i(i_A),
+	.ibar(gnd),
+	.o(\i_A~input_o ));
+// synopsys translate_off
+defparam \i_A~input .bus_hold = "false";
+defparam \i_A~input .simulate_z_as = "z";
+// synopsys translate_on
+
+assign o_F = \o_F~output_o ;
+
+endmodule

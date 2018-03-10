@@ -1,0 +1,357 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/cpre381/lab7
+T_opt
+!s110 1488992569
+VEo4i>:Lj8Tnhhb0;3Z_mB2
+04 4 8 work lab7 bdf_type 1
+=1-f8b156d58409-58c03939-12a-a3b08
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.5b;63
+T_opt1
+!s110 1488992384
+V6DQg:Vo7gc0eSVXD]6PjR0
+04 8 8 work mux32to1 dataflow 1
+=1-f8b156d58409-58c0387f-354-a3e4c
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1488992433
+V?:YYe@c2_2FPK0B^e]YB>3
+04 14 9 work thi_two_ttomux structure 1
+=1-f8b156d58409-58c038b0-11f-a228c
+R1
+R2
+n@_opt2
+R3
+R0
+Ealu
+Z4 w1488469535
+Z5 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z8 8U:/cpre381/lab7/ALU/ALU.vhd
+Z9 FU:/cpre381/lab7/ALU/ALU.vhd
+l0
+L5
+Vf>7RfL[XQ:4nQeF=m[WXT2
+!s100 Z8@PE[3L6GO25hoSiQKiA0
+Z10 OL;C;10.5b;63
+32
+Z11 !s110 1488991783
+!i10b 1
+Z12 !s108 1488991783.000000
+Z13 !s90 -reportprogress|300|-work|work|U:/cpre381/lab7/ALU/ALU.vhd|
+Z14 !s107 U:/cpre381/lab7/ALU/ALU.vhd|
+!i113 0
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Amixed
+R5
+R6
+R7
+DEx4 work 3 alu 0 22 f>7RfL[XQ:4nQeF=m[WXT2
+l18
+L14
+VN;UcC`KG@jMDzkahaLH3i2
+!s100 3eY0;I7PI;[?5S_]FZG`I0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Edecoder5to32
+Z17 w1478276924
+R6
+R7
+R0
+Z18 8U:/cpre381/lab7/Register File/decoder5to32.vhd
+Z19 FU:/cpre381/lab7/Register File/decoder5to32.vhd
+l0
+L4
+VK9N[][AK_5jHc_jXLRDDF1
+!s100 g=Oz0Waa:;e9XJJIjOc8K1
+R10
+32
+Z20 !s110 1488991791
+!i10b 1
+Z21 !s108 1488991790.000000
+Z22 !s90 -reportprogress|300|-work|work|U:/cpre381/lab7/Register File/decoder5to32.vhd|
+Z23 !s107 U:/cpre381/lab7/Register File/decoder5to32.vhd|
+!i113 0
+R15
+R16
+Adataflow
+R6
+R7
+DEx4 work 12 decoder5to32 0 22 K9N[][AK_5jHc_jXLRDDF1
+l11
+L9
+VMzkR4^Jc`AC4;JI;fAJK63
+!s100 5[kcOSo7P]za>Xh1AXXWA3
+R10
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 0
+R15
+R16
+Elab7
+Z24 w1488992547
+R6
+R7
+R0
+Z25 8U:/cpre381/lab7/lab7.vhd
+Z26 FU:/cpre381/lab7/lab7.vhd
+l0
+L25
+V<NkW1<dEg28nZiF1Pi[dB1
+!s100 6XAbgQPU`Y_l9Ah_TD9J]3
+R10
+32
+Z27 !s110 1488992558
+!i10b 1
+Z28 !s108 1488992558.000000
+Z29 !s90 -reportprogress|300|-work|work|U:/cpre381/lab7/lab7.vhd|
+Z30 !s107 U:/cpre381/lab7/lab7.vhd|
+!i113 0
+R15
+R16
+Abdf_type
+R6
+R7
+DEx4 work 4 lab7 0 22 <NkW1<dEg28nZiF1Pi[dB1
+l106
+L48
+VV`EC_YNXUICkURUE`JOc>2
+!s100 ^j[=Iibh@CBImSO<JXhk_0
+R10
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 0
+R15
+R16
+Emem
+Z31 w1488467336
+Z32 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z33 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R6
+R7
+R0
+Z34 8U:/cpre381/lab7/Memory/mem.vhd
+Z35 FU:/cpre381/lab7/Memory/mem.vhd
+l0
+L24
+VdcD5bOL<_Z12`iDMgDJkO2
+!s100 CCldVeILVO]UbN?li?6Sg2
+R10
+32
+Z36 !s110 1488991541
+!i10b 1
+Z37 !s108 1488991541.000000
+Z38 !s90 -reportprogress|30|-work|work|U:/cpre381/lab7/Memory/mem.vhd|
+Z39 !s107 U:/cpre381/lab7/Memory/mem.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R32
+R33
+R6
+R7
+DEx4 work 3 mem 0 22 dcD5bOL<_Z12`iDMgDJkO2
+l482
+L35
+V[jjF3D^gcLG<FQ=Vo=n]P0
+!s100 4C42V4nNYbBoQH0@dTY0F0
+R10
+32
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 0
+R15
+R16
+Emux32to1
+R17
+R6
+R7
+R0
+Z40 8U:/cpre381/lab7/Register File/mux32to1.vhd
+Z41 FU:/cpre381/lab7/Register File/mux32to1.vhd
+l0
+L4
+VEKko6o]RXnlEGYmDezHYe3
+!s100 3Z4dkHSeC;mRW0mA1n>Pk1
+R10
+32
+R20
+!i10b 1
+Z42 !s108 1488991791.000000
+Z43 !s90 -reportprogress|300|-work|work|U:/cpre381/lab7/Register File/mux32to1.vhd|
+Z44 !s107 U:/cpre381/lab7/Register File/mux32to1.vhd|
+!i113 0
+R15
+R16
+Adataflow
+R6
+R7
+DEx4 work 8 mux32to1 0 22 EKko6o]RXnlEGYmDezHYe3
+l43
+L41
+V5la>6A;U<ET=dkndGS5jE0
+!s100 RdTjU313eJo9Z6CA5fL>X0
+R10
+32
+R20
+!i10b 1
+R42
+R43
+R44
+!i113 0
+R15
+R16
+Eregister_file
+Z45 w1488240342
+R6
+R7
+R0
+Z46 8U:/cpre381/lab7/Register File/register_file.vhd
+Z47 FU:/cpre381/lab7/Register File/register_file.vhd
+l0
+L4
+Vabeog3G];c_;_j<Q_K3_]3
+!s100 5Z2o<nZ?UO?97m58;M?WV1
+R10
+32
+Z48 !s110 1488991792
+!i10b 1
+Z49 !s108 1488991792.000000
+Z50 !s90 -reportprogress|300|-work|work|U:/cpre381/lab7/Register File/register_file.vhd|
+Z51 !s107 U:/cpre381/lab7/Register File/register_file.vhd|
+!i113 0
+R15
+R16
+Astructure
+R6
+R7
+DEx4 work 13 register_file 0 22 abeog3G];c_;_j<Q_K3_]3
+l73
+L18
+Vn^lPF;XlOBU[ibc^^dPC23
+!s100 S7aB_k7@Q;dnVWQ3a2_iO0
+R10
+32
+R48
+!i10b 1
+R49
+R50
+R51
+!i113 0
+R15
+R16
+Eregister_nbit
+R17
+R6
+R7
+R0
+Z52 8U:/cpre381/lab7/Register File/register_Nbit.vhd
+Z53 FU:/cpre381/lab7/Register File/register_Nbit.vhd
+l0
+L4
+Vj0H=aTGZZ3>JzlBkPO9mi2
+!s100 SdHiWgPWLfFACP6LBJF8:2
+R10
+32
+R48
+!i10b 1
+R49
+Z54 !s90 -reportprogress|30|-work|work|U:/cpre381/lab7/Register File/register_Nbit.vhd|
+Z55 !s107 U:/cpre381/lab7/Register File/register_Nbit.vhd|
+!i113 0
+R15
+R16
+Amixed
+R6
+R7
+DEx4 work 13 register_nbit 0 22 j0H=aTGZZ3>JzlBkPO9mi2
+l17
+L13
+V6AbgT?3[KL6UL^ZXj[[6;2
+!s100 5_:G?13`>bnC@N8_EnM2<1
+R10
+32
+R48
+!i10b 1
+R49
+R54
+R55
+!i113 0
+R15
+R16
+Ethi_two_ttomux
+Z56 w1488468023
+R6
+R7
+R0
+Z57 8U:/cpre381/lab7/thi_two_ttomux.vhd
+Z58 FU:/cpre381/lab7/thi_two_ttomux.vhd
+l0
+L5
+VWC3Pb8FjkLa1lGzP^^Q]71
+!s100 XK5fcB@1oShX>U;kX@9nR1
+R10
+32
+Z59 !s110 1488992420
+!i10b 1
+Z60 !s108 1488992420.000000
+Z61 !s90 -reportprogress|300|-work|work|U:/cpre381/lab7/thi_two_ttomux.vhd|
+Z62 !s107 U:/cpre381/lab7/thi_two_ttomux.vhd|
+!i113 0
+R15
+R16
+Astructure
+R6
+R7
+DEx4 work 14 thi_two_ttomux 0 22 WC3Pb8FjkLa1lGzP^^Q]71
+l21
+L14
+VOlMn44fom8Fd0V;dR78G:2
+!s100 iMQ?JfbOAVXaQ:hl78K6N0
+R10
+32
+R59
+!i10b 1
+R60
+R61
+R62
+!i113 0
+R15
+R16

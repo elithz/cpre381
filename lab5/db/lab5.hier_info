@@ -1,0 +1,5 @@
+|inv
+i_A => o_F.DATAIN
+o_F << i_A.DB_MAX_OUTPUT_PORT_TYPE
+
+

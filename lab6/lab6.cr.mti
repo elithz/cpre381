@@ -1,0 +1,41 @@
+U:/cpre381/lab6/onebitfulad.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/cpre381/lab6/onebitfulad.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fulladder
+-- Compiling architecture structure of fulladder
+
+} {} {}} U:/cpre381/lab6/multiplicand.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {U:\cpre381\lab6\multiplicand.vhd}
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity multiplicand
+-- Compiling architecture mixed of multiplicand
+
+} {} {}} U:/cpre381/lab6/multiplier.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/cpre381/lab6/multiplier.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity multiplier
+-- Compiling architecture mixed of multiplier
+
+} {} {}} U:/cpre381/lab6/six_fou_bit_ALU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/cpre381/lab6/six_fou_bit_ALU.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity six_fou_bit_ALU
+-- Compiling architecture structure of six_fou_bit_ALU
+
+} {} {}} U:/cpre381/lab6/dff.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none U:/cpre381/lab6/dff.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dff
+-- Compiling architecture mixed of dff
+
+} {} {}}

@@ -1,0 +1,351 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/cpre381/lab6
+T_opt
+!s110 1488419652
+VEf4o[SoY7OY`TeoA2@RVA0
+04 14 9 work six_fou_ttomux structure 1
+=1-f8b156d3ebd6-58b77b44-e2-af2c
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.5b;63
+R0
+T_opt1
+!s110 1488420959
+V[`=P3n7ACZABMl@aA8hM52
+04 4 8 work lab6 bdf_type 1
+=1-f8b156d3ebd6-58b7805e-374-b8a4
+R1
+R2
+n@_opt1
+R3
+T_opt2
+!s110 1488418082
+VCR;BO3>GlCkD>h5zCJjYX0
+04 15 9 work six_fou_bit_alu structure 1
+=1-f8b156d3ebd6-58b77521-3d6-aad8
+R1
+R2
+n@_opt2
+R3
+R0
+Edff
+Z4 w1471488544
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z7 8U:/cpre381/lab6/dff.vhd
+Z8 FU:/cpre381/lab6/dff.vhd
+l0
+L21
+VECRb8ED6<Jf5D>9[?8RIl0
+!s100 mT_OLTf8f1nD0BMVi`22Q3
+Z9 OL;C;10.5b;63
+32
+Z10 !s110 1487862790
+!i10b 1
+Z11 !s108 1487862790.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/cpre381/lab6/dff.vhd|
+Z13 !s107 U:/cpre381/lab6/dff.vhd|
+!i113 0
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1 CvgOpt 0
+Amixed
+R5
+R6
+DEx4 work 3 dff 0 22 ECRb8ED6<Jf5D>9[?8RIl0
+l35
+L31
+V4DOoT[dXV2nk:n9J@AHS20
+!s100 j3C[YCFRW8M@3<JaVm8?<1
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 0
+R14
+R15
+Efulladder
+Z16 w1487865082
+R5
+R6
+R0
+Z17 8U:/cpre381/lab6/onebitfulad.vhd
+Z18 FU:/cpre381/lab6/onebitfulad.vhd
+l0
+L5
+VXChooVV2k@9bl6TfA4YYe2
+!s100 EBN`iRAX4W2?ionCMfY<63
+R9
+32
+Z19 !s110 1487865087
+!i10b 1
+Z20 !s108 1487865087.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|U:/cpre381/lab6/onebitfulad.vhd|
+Z22 !s107 U:/cpre381/lab6/onebitfulad.vhd|
+!i113 0
+R14
+R15
+Astructure
+R5
+R6
+DEx4 work 9 fulladder 0 22 XChooVV2k@9bl6TfA4YYe2
+l17
+L15
+V:o=lCflfC[>6NllFAeLZ31
+!s100 <ePDikKVCF4^;[>2jYd320
+R9
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 0
+R14
+R15
+Elab6
+Z23 w1488420916
+R5
+R6
+R0
+Z24 8U:/cpre381/lab6/lab6.vhd
+Z25 FU:/cpre381/lab6/lab6.vhd
+l0
+L25
+VjSznNWH43XNmPn1@FQM@D0
+!s100 bch[;NgWfQCklMzZ6LWG;1
+R9
+32
+Z26 !s110 1488420944
+!i10b 1
+Z27 !s108 1488420943.000000
+Z28 !s90 -reportprogress|300|-work|work|U:/cpre381/lab6/lab6.vhd|
+Z29 !s107 U:/cpre381/lab6/lab6.vhd|
+!i113 0
+Z30 o-work work
+R15
+Abdf_type
+R5
+R6
+DEx4 work 4 lab6 0 22 jSznNWH43XNmPn1@FQM@D0
+l103
+L43
+V06B75HKm1ePdla<egdT:]2
+!s100 K;b12`zZ^ealaUg:CWX<g0
+R9
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 0
+R30
+R15
+Emultiplicand
+Z31 w1487863598
+R5
+R6
+R0
+Z32 8U:/cpre381/lab6/multiplicand.vhd
+Z33 FU:/cpre381/lab6/multiplicand.vhd
+l0
+L4
+V1DU47AKNAD@i6T40aZ:Q[3
+!s100 ml_HFkX<kfkhU;SD9:=z<1
+R9
+32
+Z34 !s110 1488419640
+!i10b 1
+Z35 !s108 1488419640.000000
+Z36 !s90 -reportprogress|300|-work|work|U:/cpre381/lab6/multiplicand.vhd|
+Z37 !s107 U:/cpre381/lab6/multiplicand.vhd|
+!i113 0
+R30
+R15
+Amixed
+R5
+R6
+DEx4 work 12 multiplicand 0 22 1DU47AKNAD@i6T40aZ:Q[3
+l19
+L15
+VinHYPfBnzZZHgeedf=7ah3
+!s100 Y;]o<:FF]mzSezZ8:j[`F3
+R9
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 0
+R30
+R15
+Emultiplier
+Z38 w1487863697
+R5
+R6
+R0
+Z39 8U:/cpre381/lab6/multiplier.vhd
+Z40 FU:/cpre381/lab6/multiplier.vhd
+l0
+L4
+VS;;zKzIoon7lHPN^:9^Xe0
+!s100 TdEUYn_Rk`9SmOk_g=S9g2
+R9
+32
+Z41 !s110 1488419638
+!i10b 1
+Z42 !s108 1488419638.000000
+Z43 !s90 -reportprogress|300|-work|work|U:/cpre381/lab6/multiplier.vhd|
+Z44 !s107 U:/cpre381/lab6/multiplier.vhd|
+!i113 0
+R30
+R15
+Amixed
+R5
+R6
+DEx4 work 10 multiplier 0 22 S;;zKzIoon7lHPN^:9^Xe0
+l18
+L15
+V@[aJ<^0`[7Sdch[@FHa4V3
+!s100 LA;giI4h?n`Ab2m03=^`?3
+R9
+32
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 0
+R30
+R15
+Esix_fou_bit_alu
+Z45 w1487865174
+R5
+R6
+R0
+Z46 8U:/cpre381/lab6/six_fou_bit_ALU.vhd
+Z47 FU:/cpre381/lab6/six_fou_bit_ALU.vhd
+l0
+L5
+VkC`<ooI3X0b`hlHGTa4o>0
+!s100 i^>nj<H]HnG3g:ZBFm1>>0
+R9
+32
+Z48 !s110 1488419624
+!i10b 1
+Z49 !s108 1488419623.000000
+Z50 !s90 -reportprogress|300|-work|work|U:/cpre381/lab6/six_fou_bit_ALU.vhd|
+Z51 !s107 U:/cpre381/lab6/six_fou_bit_ALU.vhd|
+!i113 0
+R30
+R15
+Astructure
+R5
+R6
+DEx4 work 15 six_fou_bit_alu 0 22 kC`<ooI3X0b`hlHGTa4o>0
+l30
+L16
+VFWlh]`lKLl6NTFJ3P5m]80
+!s100 1HRNS33_=dQOiWHbA`;0Y1
+R9
+32
+R48
+!i10b 1
+R49
+R50
+R51
+!i113 0
+R30
+R15
+Esix_fou_single_reg
+Z52 w1488419546
+R5
+R6
+R0
+Z53 8U:/cpre381/lab6/six_fou_single_register.vhd
+Z54 FU:/cpre381/lab6/six_fou_single_register.vhd
+l0
+L4
+V5EkbUUcL7`:nQImTOH>[d3
+!s100 5BEPjIf5aCMXP1MLgM0Ii3
+R9
+32
+Z55 !s110 1488419625
+!i10b 1
+Z56 !s108 1488419625.000000
+Z57 !s90 -reportprogress|300|-work|work|U:/cpre381/lab6/six_fou_single_register.vhd|
+Z58 !s107 U:/cpre381/lab6/six_fou_single_register.vhd|
+!i113 0
+R30
+R15
+Astructural
+R5
+R6
+DEx4 work 18 six_fou_single_reg 0 22 5EkbUUcL7`:nQImTOH>[d3
+l32
+L19
+Vm[GS?_THU9Knkk>lM_X<81
+!s100 AW8e:<@Q@_G;Q5e0@]?K;0
+R9
+32
+R55
+!i10b 1
+R56
+R57
+R58
+!i113 0
+R30
+R15
+Esix_fou_ttomux
+Z59 w1488419605
+R5
+R6
+R0
+Z60 8U:/cpre381/lab6/six_fou_ttomux.vhd
+Z61 FU:/cpre381/lab6/six_fou_ttomux.vhd
+l0
+L5
+Vn`UY>n<VT1ef5P_SZfgO:1
+!s100 EH8aPhm:0M6MnzgRf1j=e3
+R9
+32
+Z62 !s110 1488419621
+!i10b 1
+Z63 !s108 1488419621.000000
+Z64 !s90 -reportprogress|300|-work|work|U:/cpre381/lab6/six_fou_ttomux.vhd|
+Z65 !s107 U:/cpre381/lab6/six_fou_ttomux.vhd|
+!i113 0
+R30
+R15
+Astructure
+R5
+R6
+DEx4 work 14 six_fou_ttomux 0 22 n`UY>n<VT1ef5P_SZfgO:1
+l21
+L14
+VWBG@;JWNda6nHji4kW28:2
+!s100 O5A>_aHkIk7nPDUnlS@Gm3
+R9
+32
+R62
+!i10b 1
+R63
+R64
+R65
+!i113 0
+R30
+R15

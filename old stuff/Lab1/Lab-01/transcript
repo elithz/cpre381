@@ -1,0 +1,76 @@
+# //  ModelSim SE-64 10.1c Jul 27 2012 Linux 3.10.0-327.28.3.el7.x86_64
+# //
+# //  Copyright 1991-2012 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+vsim -work work Emcc.vhd
+# ** Error: (vish-3296) Unknown option '-work'.
+# Use the -help option for complete vsim usage.
+# Error loading design
+vsim work.emcc
+# vsim work.emcc 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: Failed to find design unit work.emcc.
+# Optimization failed
+# Error loading design
+vcom -work work /home/elithz/cpre381/Lab-01/Emcc.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Emcc
+# -- Compiling architecture structure of Quadratic
+# -- Loading entity Quadratic
+vcom -work work /home/elithz/cpre381/Lab-01/Emcc.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Emcc
+# -- Compiling architecture structure of Quadratic
+# -- Loading entity Quadratic
+vcom -work work Emcc.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Emcc
+# -- Compiling architecture structure of Quadratic
+# -- Loading entity Quadratic
+vcom -work work /home/elithz/cpre381/Lab-01/Emcc.vhd
+# Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Emcc
+# -- Compiling architecture structure of Emcc
+add wave sim:/emcc/*
+# Unrecognized dataset prefix: sim
+vsim -voptargs=+acc work.emcc
+# vsim -voptargs=+acc work.emcc 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.emcc(structure)#1
+# Loading work.multiplier(behavior)#1
+# ** Error: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is elithz@co2048-10.ece.iastate.edu.
+# /remote/Modelsim/10.1c/modeltech/linux_x86_64/vdel failed.
+vsim work.emcc
+# vsim work.emcc 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.emcc(structure)#1
+add wave sim:/emcc/*
+force -freeze sim:/emcc/iCLK 1 0, 0 {50 ns} -r 100
+run 1000
+force -freeze sim:/emcc/iM 2 0
+run 1000
